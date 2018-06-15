@@ -1,0 +1,77 @@
+body {
+  font-family: Montserrat, sans-serif;
+  background-image: url("backgroundhome.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#DC {
+  position: absolute;
+  top: 60px;
+}
+h1 {
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  font-weight: lighter;
+}
+h2 {
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: -2.5%
+}
+p {line-height: 23px}
+
+.liveries {
+  color: white;
+  text-align: right;
+  background-color: #191919
+}
+li {
+  color: white;
+  text-align: right;
+  font-size: 18px;
+  font-weight:normal;
+  font-style: italic;
+}
+.is-responsive .top-bar .elenco{
+  vertical-align: middle;
+}
+.top-bar {
+  color: white;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+.piccolo {
+  list-style-type: none;
+  margin: 80px;
+}
+div.piccolo {
+  margin-top: 550px;
+}
+.elenco li {
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 120px;
+  height: 10px;
+  vertical-align: top;
+}
+.elenco {
+  list-style-type: none;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+a:hover, a:active {
+    text-decoration: none;
+    color: #909090;
+}
